@@ -1,0 +1,30 @@
+{
+	"name": "rbv",
+	"description": "Remote Backup Verification",
+	"version": "0.0.0-1",
+	"main": "lib/index.js",
+	"bin": {
+		"rbv": "lib/cli.js"
+	},
+	"scripts": {
+		"start": "node lib/cli",
+		"test": "npx nslibmgr test"
+	},
+	"author": "Prokop Schield",
+	"license": "GPL-3.0-or-later",
+	"devDependencies": {
+		"@types/node": ">=14"
+	},
+	"keywords": [],
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prokopschield/rbv.git"
+	},
+	"bugs": {
+		"url": "https://github.com/prokopschield/rbv/issues"
+	},
+	"homepage": "https://github.com/prokopschield/rbv#readme"
+}
